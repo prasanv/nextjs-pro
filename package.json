@@ -2,9 +2,9 @@
   "name": "nextjs-pro",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 2700",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p 2700",
     "lint": "next lint"
   },
   "dependencies": {

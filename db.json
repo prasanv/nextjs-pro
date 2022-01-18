@@ -1,0 +1,253 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Product 1",
+      "price": 770,
+      "description": "Product Description 1"
+    },
+    {
+      "id": 2,
+      "title": "Product 2",
+      "price": 1060,
+      "description": "Product Description 2"
+    },
+    {
+      "id": 3,
+      "title": "Product 3",
+      "price": 2900,
+      "description": "Product Description 3"
+    },
+    {
+      "id": 4,
+      "title": "Product 4",
+      "price": 3500,
+      "description": "Product Description 4"
+    },
+    {
+      "id": 5,
+      "title": "Product 5",
+      "price": 4000,
+      "description": "Product Description 5"
+    },
+    {
+      "id": 6,
+      "title": "Product 6",
+      "price": 5500,
+      "description": "Product Description 6"
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "title": "Event 1",
+      "description": "Description 1",
+      "category": "sports",
+      "date": "April 25"
+    },
+    {
+      "id": 2,
+      "title": "Event 2",
+      "description": "Description 2",
+      "category": "technology",
+      "date": "May 25"
+    },
+    {
+      "id": 3,
+      "title": "Event 3",
+      "description": "Description 3",
+      "category": "food",
+      "date": "October 25"
+    },
+    {
+      "id": 4,
+      "title": "Event 4",
+      "description": "Description 4",
+      "category": "food",
+      "date": "April 25"
+    },
+    {
+      "id": 5,
+      "title": "Event 5",
+      "description": "Description 5",
+      "category": "sports",
+      "date": "January 15"
+    },
+    {
+      "id": 6,
+      "title": "Event 6",
+      "description": "Description 6",
+      "category": "art",
+      "date": "April 25"
+    },
+    {
+      "id": 7,
+      "title": "Event 7",
+      "description": "Description 7",
+      "category": "technology",
+      "date": "June 25"
+    },
+    {
+      "id": 8,
+      "title": "Event 8",
+      "description": "Description 8",
+      "category": "sports",
+      "date": "February 28"
+    },
+    {
+      "id": 9,
+      "title": "Event 9",
+      "description": "Description 9",
+      "category": "food",
+      "date": "April 25"
+    },
+    {
+      "id": 10,
+      "title": "Event 10",
+      "description": "Description 10",
+      "category": "sports",
+      "date": "August 5"
+    }
+  ],
+  "appliances": [
+    {
+      "id": 4685,
+      "uid": "a4896cf5-9c8f-4e0d-b7b6-dc9c1a717825",
+      "brand": "Admiral",
+      "equipment": "Fan heater",
+      "category": "household"
+    },
+    {
+      "id": 2899,
+      "uid": "0ecab68e-883e-4008-aaec-158bca35d60a",
+      "brand": "KitchenAid",
+      "equipment": "Air ioniser",
+      "category": "household"
+    },
+    {
+      "id": 4043,
+      "uid": "7e024f08-bb6f-4fe1-b3dd-15bec764a283",
+      "brand": "IKEA",
+      "equipment": "Humidifier",
+      "category": "household"
+    },
+    {
+      "id": 1553,
+      "uid": "0e4fec46-5f7c-4610-a668-b2d43ec74c4a",
+      "brand": "Admiral",
+      "equipment": "Refrigerator",
+      "category": "kitchen"
+    },
+    {
+      "id": 111,
+      "uid": "2964d263-1f78-482c-b0e2-706befcc4b92",
+      "brand": "Samsung",
+      "equipment": "Patio heater",
+      "category": "household"
+    },
+    {
+      "id": 7737,
+      "uid": "45d74c3d-07c8-4d10-8b58-12fab8f608eb",
+      "brand": "Blue Star",
+      "equipment": "Combo washer dryer",
+      "category": "household"
+    },
+    {
+      "id": 1606,
+      "uid": "e5d882a2-13bf-466b-8bf4-3d2f03b068b7",
+      "brand": "Fagor",
+      "equipment": "Window fan",
+      "category": "household"
+    },
+    {
+      "id": 9662,
+      "uid": "de77973f-60d2-41ca-84d1-ec3c5a1dddcb",
+      "brand": "Admiral",
+      "equipment": "Patio heater",
+      "category": "household"
+    },
+    {
+      "id": 7460,
+      "uid": "bbfdbfab-08f1-4cd7-9100-e9616eb29c13",
+      "brand": "Amana",
+      "equipment": "Vacuum cleaner"
+    },
+    {
+      "id": 4314,
+      "uid": "e4029eaa-0e86-4f89-a9dc-d1dcf13781a7",
+      "brand": "Blue Star",
+      "equipment": "Hair iron",
+      "category": "household"
+    },
+    {
+      "id": 8873,
+      "uid": "077b3d64-5f62-444a-8c75-79b3492c8ce3",
+      "brand": "LG",
+      "equipment": "Back boiler",
+      "category": "household"
+    },
+    {
+      "id": 1525,
+      "uid": "cf20c4c2-572a-4b19-94a5-548e0653acea",
+      "brand": "Admiral",
+      "equipment": "Water cooker",
+      "category": "kitchen"
+    },
+    {
+      "id": 2222,
+      "uid": "f9212e3a-e7c8-4fe9-9746-07cecae3908c",
+      "brand": "IKEA",
+      "equipment": "Kimchi refrigerator",
+      "category": "kitchen"
+    },
+    {
+      "id": 5045,
+      "uid": "dfed0aa2-615a-4c3d-b726-6cce6ecb351d",
+      "brand": "Admiral",
+      "equipment": "Exhaust hood",
+      "category": "kitchen"
+    },
+    {
+      "id": 3499,
+      "uid": "36303b20-e9e2-43df-b839-f8ec25bd9ebf",
+      "brand": "Whirlpool",
+      "equipment": "Back boiler",
+      "category": "household"
+    },
+    {
+      "id": 9655,
+      "uid": "bc39514b-dd11-4734-9d50-137f132aa5a9",
+      "brand": "Fagor",
+      "equipment": "Can opener",
+      "category": "kitchen"
+    },
+    {
+      "id": 419,
+      "uid": "67d466c5-82b6-4fc4-9cb9-2ddac36db3cd",
+      "brand": "KitchenAid",
+      "equipment": "Mangle (machine)",
+      "category": "kitchen"
+    },
+    {
+      "id": 7467,
+      "uid": "e82b4806-314e-4cea-9bbd-296ca59fc0d3",
+      "brand": "Blue Star",
+      "equipment": "Oven",
+      "category": "kitchen"
+    },
+    {
+      "id": 1481,
+      "uid": "5bf8e04c-7686-4722-a60f-2a9e14d1cb2d",
+      "brand": "Franke",
+      "equipment": "Water purifier",
+      "category": "kitchen"
+    },
+    {
+      "id": 3458,
+      "uid": "ccef6c8d-c25f-46e4-9059-201c951ec0a6",
+      "brand": "Bosch",
+      "equipment": "Garbage disposal unit",
+      "category": "household"
+    }
+  ]
+}
