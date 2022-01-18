@@ -6,12 +6,12 @@ function EventsFiltering({ appliancesList }) {
   const router = useRouter();
 
   const filterFetcher = async (filterValue) => {
-    const queryString = filterValue === "clear" ? "" : `brand=${filterValue}`;
-    const res = await fetch(`http://localhost:2020/appliances?${queryString}`);
+    const queryString = filterValue === "clear" ? "" : `?brand=${filterValue}`;
+    const res = await fetch(`http://localhost:2020/appliances${queryString}`);
     const data = await res.json();
     setAppliances(data);
     router.push(
-      `/3-server-side-rendering/shallow-routing?${queryString}`,
+      `/3-server-side-rendering/shallow-routing${queryString}`,
       undefined,
       { shallow: true }
     );
@@ -31,8 +31,8 @@ function EventsFiltering({ appliancesList }) {
       <button value="Admiral" onClick={(e) => filterHandler(e)}>
         Admiral
       </button>
-      <button value="KitchenAid" onClick={(e) => filterHandler(e)}>
-        KitchenAid
+      <button value="Blue Star" onClick={(e) => filterHandler(e)}>
+        Blue Star
       </button>
       <button value="clear" onClick={(e) => filterHandler(e)}>
         Clear
@@ -55,8 +55,8 @@ export default EventsFiltering;
 export async function getServerSideProps(context) {
   const queryString = !context.query.brand
     ? ""
-    : `brand=${context.query.brand}`;
-  const res = await fetch(`http://localhost:2020/appliances?${queryString}`);
+    : `?brand=${context.query.brand}`;
+  const res = await fetch(`http://localhost:2020/appliances${queryString}`);
   const data = await res.json();
 
   return {
