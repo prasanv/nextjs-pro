@@ -74,6 +74,14 @@ export default function Home() {
           </Link>
         </li>
       </div>
+      <div>
+        <h4>Layout, </h4>
+        <li>
+          <Link href="/custom/custom-layout">
+            <a>Custom Layout Page</a>
+          </Link>
+        </li>
+      </div>
     </div>
   );
 }

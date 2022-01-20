@@ -14,3 +14,19 @@
 .header {
   text-decoration: underline;
 }
+
+.customFooter {
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  background-color: cyan;
+}
+
+.customHeader {
+  padding: 1rem;
+  text-decoration: underline;
+  background-color: cyan;
+}
