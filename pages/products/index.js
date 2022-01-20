@@ -4,7 +4,6 @@ import { useRouter } from "next/router";
 
 const Products = ({ productId = 100 }) => {
   const router = useRouter();
-  console.log({ router });
 
   const orderStatusHandler = () => {
     router.push("/products/order-status");

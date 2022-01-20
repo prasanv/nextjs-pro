@@ -4,7 +4,6 @@ import styles from "../styles/Home.module.css";
 export default function Home() {
   return (
     <div className={styles.container}>
-      <h2>NextJS Pro</h2>
       <div>
         <h4>Navigation Examples</h4>
         <li>
@@ -53,12 +52,25 @@ export default function Home() {
         <h4>Server Side Rendering</h4>
         <li>
           <Link href="/3-server-side-rendering">
-            <a>1-get-server-side-props</a>
+            <a>get-server-side-props</a>
           </Link>
         </li>
         <li>
           <Link href="/3-server-side-rendering/shallow-routing">
             <a>shallow-routing</a>
+          </Link>
+        </li>
+      </div>
+      <div>
+        <h4>API Examples</h4>
+        <li>
+          <Link href="/4-api-examples/comments">
+            <a>API methods - GET, POST, DELETE</a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/api/something/anything">
+            <a>API methods - Catch All Routes including api index</a>
           </Link>
         </li>
       </div>

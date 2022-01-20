@@ -7,8 +7,8 @@ import pic2 from "../../../public/getStaticPaths.fallback.false.2.png";
 function Posts({ posts }) {
   return (
     <div>
-      <Image src={pic1} alt="pic1" width={700} height={350}></Image>
-      <Image src={pic1} alt="pic1" width={700} height={350}></Image>
+      <Image src={pic1} alt="pic1" width={700} height={200}></Image>
+      <Image src={pic2} alt="pic1" width={700} height={250}></Image>
       <h2>getStaticPaths - fallback:false</h2>
       <p>try routes beyond 100 to check the behavior</p>
       {posts.map((item) => (
