@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import pic1 from "../../../public/getStaticPaths.fallback.true.1.png";
-import pic2 from "../../../public/getStaticPaths.fallback.true.1.png";
+import pic1 from "public/getStaticPaths.fallback.true.1.png";
+import pic2 from "public/getStaticPaths.fallback.true.1.png";
 
 function Albums({ posts }) {
   return (

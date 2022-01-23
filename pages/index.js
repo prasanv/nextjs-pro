@@ -1,5 +1,5 @@
 import Link from "next/link";
-import styles from "../styles/Home.module.css";
+import styles from "styles/Home.module.css";
 
 export default function Home() {
   return (
@@ -75,10 +75,43 @@ export default function Home() {
         </li>
       </div>
       <div>
-        <h4>Layout, </h4>
+        <h4>
+          Layout, Head, Image, Absolute Imports & Module Paths, Redirects,
+          Environment Variables{" "}
+        </h4>
         <li>
           <Link href="/custom/custom-layout">
             <a>Custom Layout Page</a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/custom/custom-head">
+            <a>Custom Head Page</a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/custom/dynamic-head">
+            <a>Dynamic Head Page</a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/custom/custom-image">
+            <a>Custom Image Loading Page</a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/custom/static-redirects">
+            <a>Static Page Redirects</a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/redirects/dynamic-redirects">
+            <a>Dynamic Page Redirects</a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/custom/env-var">
+            <a>Environment Variables</a>
           </Link>
         </li>
       </div>

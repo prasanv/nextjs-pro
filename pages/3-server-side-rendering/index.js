@@ -9,7 +9,9 @@ function ItemsList({ data }) {
         <div key={item.id}>
           <Link href={`/3-server-side-rendering/${item.brand}`} passHref>
             <h3>
-              {item.id}.{item.brand}
+              <a>
+                {item.id}.{item.brand}
+              </a>
             </h3>
           </Link>
           <p>{item.equipment}</p>

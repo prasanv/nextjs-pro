@@ -1,8 +1,8 @@
 import Image from "next/image";
 import React from "react";
-import Users from "../../../src/components/1-static-generation/users";
-import GetStaticProps_1 from "../../../public/getStaticProps.1.png";
-import GetStaticProps_2 from "../../../public/getStaticProps.2.png";
+import Users from "@/1-static-generation/users";
+import GetStaticProps_1 from "public/getStaticProps.1.png";
+import GetStaticProps_2 from "public/getStaticProps.2.png";
 
 function StaticGenerationExample({ users }) {
   return (

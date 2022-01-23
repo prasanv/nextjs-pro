@@ -1,6 +1,6 @@
 import React from "react";
-import CustomHeader from "../../components/layout/customHeader";
-import CustomFooter from "../../components/layout/customFooter";
+import CustomHeader from "@/layout/customHeader";
+import CustomFooter from "@/layout/customFooter";
 
 function CustomLayout() {
   return <div style={{ height: "500px" }}>Custom Layout Page</div>;

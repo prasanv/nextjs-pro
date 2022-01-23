@@ -39,7 +39,9 @@ function Products({ products }) {
             passHref
           >
             <h3>
-              {item.title} - Price: ${item.price}
+              <a>
+                {item.title} - Price: ${item.price}
+              </a>
             </h3>
           </Link>
         ) : (

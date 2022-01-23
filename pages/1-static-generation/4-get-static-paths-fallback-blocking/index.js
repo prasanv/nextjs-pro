@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState, useEffect } from "react";
-import pic1 from "../../../public/getStaticPaths.fallback.blocking.1.png";
-import pic2 from "../../../public/getStaticPaths.fallback.blocking.2.png";
+import pic1 from "public/getStaticPaths.fallback.blocking.1.png";
+import pic2 from "public/getStaticPaths.fallback.blocking.2.png";
 
 function Comments({ data }) {
   const [comments, setComments] = useState([]);

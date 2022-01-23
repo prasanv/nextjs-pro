@@ -23,7 +23,7 @@ function EventsFiltering({ appliancesList }) {
 
   return (
     <div>
-      <h2>Shallow Routing Example</h2>
+      <h2>Filters with Shallow Routing</h2>
       Filter by Brand :{" "}
       <button value="IKEA" onClick={(e) => filterHandler(e)}>
         IKEA

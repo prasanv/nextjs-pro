@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/layout/*": ["components/layout/*"],
+      "@/1-static-generation/*": ["components/1-static-generation/*"]
+    }
+  }
+}

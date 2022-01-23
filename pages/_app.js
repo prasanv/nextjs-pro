@@ -1,6 +1,7 @@
-import Footer from "../components/layout/Footer";
-import Header from "../components/layout/Header";
-import "../styles/globals.css";
+import Head from "next/head";
+import Footer from "@/layout/Footer";
+import Header from "@/layout/Header";
+import "styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
   // console.log(Component());
@@ -12,6 +13,10 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <>
+      <Head>
+        <title>NextJS Pro</title>
+        <meta name="description" content="NextJS Pro Examples" />
+      </Head>
       <Header />
       <Component {...pageProps} />
       <Footer />
